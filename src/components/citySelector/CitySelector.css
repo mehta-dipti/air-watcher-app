@@ -1,0 +1,22 @@
+.city-selector-container {
+  height: 100%;
+}
+.dropdown-item {
+  cursor: pointer;
+}
+.select-city-title {
+  text-align: center;
+  text-decoration: overline underline;
+}
+
+@media (min-width: 768px) {
+  .select-city-title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .select-city-title {
+    font-size: 30px;
+  }
+}

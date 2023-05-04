@@ -1,0 +1,42 @@
+.aqi-container {
+  background-color: #000;
+  opacity: 0.8;
+}
+.card-fav-button {
+  font-size: 30px;
+  cursor: pointer;
+}
+.main {
+  margin-top: 50px;
+}
+.weather-panel {
+  background: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.664)),
+    url("city.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 25px 25px 40px 0px rgba(0, 0, 0, 0.33);
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+ul.forecast > li {
+  border-bottom: 1px solid #fff;
+}
+.temperature span {
+  font-size: 2em;
+}
+
+@media (max-width: 768px) {
+  .aqi-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  ul.forecast > li {
+    border: none;
+  }
+}

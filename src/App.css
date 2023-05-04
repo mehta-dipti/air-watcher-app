@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,56 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.footer-custom {
+  background-color: #000;
+}
+.footer-head {
+  font-weight: bold;
+  font-size: larger;
+  text-decoration: underline;
+}
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #ddd;
+  text-decoration: none;
+}
+.footer-strip {
+  background-color: #000;
+}
+.navbar-custom {
+  background-color: #000;
+}
+.social-link {
+  font-size: 25px;
+  color: white;
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+ul {
+  list-style-type: none;
+}
+
+@media (max-width: 768px) {
+  .news-card {
+    max-width: 20rem;
+  }
+  .component-title {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .component-title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
 }
